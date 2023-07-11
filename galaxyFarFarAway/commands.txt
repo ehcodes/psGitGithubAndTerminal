@@ -1,0 +1,28 @@
+This is a list of the commands run to create the file structure within this repo.
+
+mkdir deathStar
+cd deathStar/
+touch darthVader.txt
+touch princessLeia.txt
+touch stormTrooper.txt
+cd ../
+mkdir tatooine/
+cd tattooine/
+touch luke.txt
+touch benKenobi.txt
+mkdir milleniumFalcon/
+cd milleniumFalcon/
+touch hanSolo.txt
+touch chewbaca.txt
+cd ../
+mv benKenobi.txt obiWan.txt
+cd ../
+cd deathStar/
+cp stormTrooper.txt stormTrooper2.txt && cd ../
+mv deathstar/stormTrooper2.txt tatooine/
+mv luke.txt obiWan.txt milleniumFalcon/
+mv milleniumFalcon/ ../galaxyFarAway/
+mv galaxyFarAway/ ../deathStar/
+mv deathStar/princessLeia.txt deathstar/milleniumFalcon/
+cd deathStar/milleniumFalcon/ && rm obiWan.txt
+cd ../../ && mkdir yavin4
