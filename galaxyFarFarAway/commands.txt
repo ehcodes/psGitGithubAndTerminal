@@ -21,8 +21,10 @@ cd deathStar/
 cp stormTrooper.txt stormTrooper2.txt && cd ../
 mv deathstar/stormTrooper2.txt tatooine/
 mv luke.txt obiWan.txt milleniumFalcon/
-mv milleniumFalcon/ ../galaxyFarAway/
-mv galaxyFarAway/ ../deathStar/
+mv milleniumFalcon/ ../galaxyFarFarAway/
+mv galaxyFarFarAway/ ../deathStar/
 mv deathStar/princessLeia.txt deathstar/milleniumFalcon/
 cd deathStar/milleniumFalcon/ && rm obiWan.txt
-cd ../../ && mkdir yavin4
+cd ../../galaxyFarFarAway/ && mkdir yavin4
+mv ../deathStar/milleniumFalcon ../yavin4/
+cd yavin4/ && mkdir xWing
