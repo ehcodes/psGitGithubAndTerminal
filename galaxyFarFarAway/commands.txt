@@ -28,3 +28,15 @@ cd deathStar/milleniumFalcon/ && rm obiWan.txt
 cd ../../galaxyFarFarAway/ && mkdir yavin4
 mv ../deathStar/milleniumFalcon ../yavin4/
 cd yavin4/ && mkdir xWing
+mv milleniumFalcon/princessLeia.txt ../ && mv milleniumFalcon/luke.txt ../xWing/
+cd ../../
+mkdir deathStar/tieFighter1 deathStar/tieFighter2 deathStar/tieFighter33
+mv deathStar/darthVader.txt deathStar/tieFighter1
+cp deathStar/stormTrooper.txt deathstar/tieFighter2/stormtrooper.txt
+cp deathStar/stormTrooper.txt deathstar/tieFighter3/stormtrooper.txt
+mv deathStar/tieFighter1 galaxyFarFarAway
+mv deathStar/tieFighter2 galaxyFarFarAway
+mv deathStar/tieFighter3 galaxyFarFarAway
+rm -r galaxyFarFarAway/tieFighter2 && rm -r galaxyFarFarAway/tieFighter3
+touch galaxyFarFarAway/yavin4/xWing/theForce.txt
+rm -r deathStar
